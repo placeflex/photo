@@ -29,7 +29,7 @@ function App() {
         <div className="scroller">
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/photo/" element={<Home />} />
             </Routes>
           </BrowserRouter>
         </div>
