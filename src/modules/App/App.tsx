@@ -27,11 +27,12 @@ function App() {
     <AnimationContext.Provider value={{ setFinishStartAnimation, scrollbar }}>
       <main className="home">
         <div className="scroller">
-          <BrowserRouter>
+          <Home />
+          {/* <BrowserRouter>
             <Routes>
               <Route path="/photo/" element={<Home />} />
             </Routes>
-          </BrowserRouter>
+          </BrowserRouter> */}
         </div>
         <Cursor />
         <div className="site-noise"></div>
